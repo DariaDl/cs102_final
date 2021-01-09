@@ -56,4 +56,3 @@ class Session(requests.Session):
 
     def post(self, url: str, *args: tp.Any, **kwargs: tp.Any) -> requests.Response:  # type:ignore
         return super().post(self.base_url + "/" + url, *args, **kwargs)
-

@@ -90,7 +90,7 @@ def get_mutual(
         progress = lambda x: x
     for i in progress(range(((len(target_uids) + 99) // 100))):
         params = {
-            "access_token": VK_CONFIG["access_token"],i
+            "access_token": VK_CONFIG["access_token"],
             "v": VK_CONFIG["version"],
             "target_uids": ",".join(map(str, target_uids)),
             "order": order,

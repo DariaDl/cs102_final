@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa05e8b1-9aff-455e-b040-d7968962fb19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework05/research/topic_modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/research/topic_modeling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework05/vkapi/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework05/vkapi/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework05/vkapi/friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/friends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework05/vkapi/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework05/vkapi/wall.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/wall.py" afterDir="false" />
-    </list>
+    <list default="true" id="fa05e8b1-9aff-455e-b040-d7968962fb19" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,24 +11,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework05/vkapi/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework05/vkapi/friends.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
               <caret line="92" column="54" lean-forward="true" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_wall.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.session">
+  <component name="RunManager" selected="Python tests.pytest in test_wall.py">
     <configuration name="friends" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs102_final" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,9 +315,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_wall.py" />
         <item itemvalue="Python.session" />
         <item itemvalue="Python.wall" />
-        <item itemvalue="Python tests.pytest in test_wall.py" />
         <item itemvalue="Python tests.pytest in test_friends.py" />
         <item itemvalue="Python.friends" />
       </list>
@@ -382,14 +374,14 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.4650838" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.4650838" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -442,16 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_wall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,6 +519,16 @@
           <caret line="92" column="54" lean-forward="true" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_wall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

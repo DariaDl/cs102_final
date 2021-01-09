@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa05e8b1-9aff-455e-b040-d7968962fb19" name="Default Changelist" comment="" />
+    <list default="true" id="fa05e8b1-9aff-455e-b040-d7968962fb19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/homework05/vkapi/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework05/vkapi/session.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_wall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="180">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -87,21 +89,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework05/vkapi/config.py">
+        <entry file="file://$PROJECT_DIR$/homework05/vkapi/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="306">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+              <folding>
+                <element signature="e#270#289#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework05/vkapi/session.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state>
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,10 +139,10 @@
         <option value="$PROJECT_DIR$/homework05/research/network.py" />
         <option value="$PROJECT_DIR$/homework05/research/age.py" />
         <option value="$PROJECT_DIR$/homework05/research/topic_modeling.py" />
-        <option value="$PROJECT_DIR$/homework05/vkapi/session.py" />
         <option value="$PROJECT_DIR$/homework05/vkapi/friends.py" />
         <option value="$PROJECT_DIR$/homework05/vkapi/wall.py" />
         <option value="$PROJECT_DIR$/homework05/tests/tests_api/test_wall.py" />
+        <option value="$PROJECT_DIR$/homework05/vkapi/session.py" />
       </list>
     </option>
   </component>
@@ -220,28 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_wall.py">
-    <configuration name="friends" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cs102_final" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework05/vkapi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework05/vkapi/friends.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in test_age.py">
     <configuration name="session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cs102_final" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,25 +246,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wall" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in test_age.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cs102_final" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework05/vkapi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework05/tests/tests_research" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework05/vkapi/wall.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework05/tests/tests_research/test_age.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_friends.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -296,6 +273,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/homework05/tests/tests_api/test_friends.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_session.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="cs102_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework05/tests/tests_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework05/tests/tests_api/test_session.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -316,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_wall.py" />
-        <item itemvalue="Python.session" />
-        <item itemvalue="Python.wall" />
+        <item itemvalue="Python tests.pytest in test_age.py" />
         <item itemvalue="Python tests.pytest in test_friends.py" />
-        <item itemvalue="Python.friends" />
+        <item itemvalue="Python tests.pytest in test_wall.py" />
+        <item itemvalue="Python tests.pytest in test_session.py" />
+        <item itemvalue="Python.session" />
       </list>
     </recent_temporary>
   </component>
@@ -338,12 +330,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_friends_py - 2021.01.09 at 22h 48m 17s.xml">
-      <configuration name="pytest in test_friends.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_wall_py - 2021.01.09 at 22h 48m 21s.xml">
-      <configuration name="pytest in test_wall.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_wall_py - 2021.01.09 at 22h 49m 35s.xml">
       <configuration name="pytest in test_wall.py" configurationId="tests" />
     </history-entry>
@@ -368,10 +354,15 @@
     <history-entry file="pytest_in_test_wall_py - 2021.01.10 at 00h 32m 43s.xml">
       <configuration name="pytest in test_wall.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_session_py - 2021.01.10 at 00h 38m 58s.xml">
+      <configuration name="pytest in test_session.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_wall_py - 2021.01.10 at 00h 39m 02s.xml">
+      <configuration name="pytest in test_wall.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1440" height="831" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
@@ -498,16 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework05/vkapi/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework05/vkapi/friends.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -527,8 +508,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_wall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="180">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework05/vkapi/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding>
+            <element signature="e#270#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework05/tests/tests_api/test_session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

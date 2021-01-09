@@ -1,3 +1,11 @@
+# pylint: disable=missing-function-docstring
+# pylint: disable=missing-module-docstring
+# pylint: disable=missing-class-docstring
+# pylint: disable=unused-argument
+# pylint: disable=unused-import
+# pylint: disable=too-many-arguments
+# pylint: disable=redefined-builtin
+
 import typing as tp
 from collections import defaultdict
 
@@ -5,7 +13,7 @@ import community as community_louvain
 import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
-from vkapi.friends import MutualFriends, get_friends, get_mutual
+from vkapi.friends import get_friends, get_mutual
 
 
 def ego_network(
@@ -17,20 +25,20 @@ def ego_network(
     :param user_id: Идентификатор пользователя, для которого строится граф друзей.
     :param friends: Идентификаторы друзей, между которыми устанавливаются связи.
     """
-    result = []
+    graph = []
     if friends is None:
-        friends_fields: tp.List[tp.Dict[str, tp.Any]] = get_friends(user_id, fields=["nickname", "is_closed, deactivate"]).items  # type: ignore
+        friends_fields = get_friends(user_id, fields=["nickname", "is_closed, deactivate"]).items  # type: ignore
         friends = [
-            friend["id"]
+            friend["id"]  # type: ignore
             for friend in friends_fields
-            if not (friend.get("deactivate") or friend.get("is_closed"))
+            if not friend.get("deactivate") and not friend.get("is_closed")  # type: ignore
         ]
-    mutuals = get_mutual(user_id, target_uids=friends)
-    for mutual in mutuals:
-        mut = tp.cast(MutualFriends, mutual)
-        for common in mut["common_friends"]:
-            result.append((mut["id"], common))
-    return result
+    mutual_friends = get_mutual(user_id, target_uids=friends)
+    for mutual_friend in mutual_friends:
+        if isinstance(mutual_friend, dict):
+            for common in mutual_friend["common_friends"]:
+                graph.append((mutual_friend["id"], common))
+    return graph
 
 
 def plot_ego_network(net: tp.List[tp.Tuple[int, int]]) -> None:
@@ -69,7 +77,6 @@ def describe_communities(
 ) -> pd.DataFrame:
     if fields is None:
         fields = ["first_name", "last_name"]
-
     data = []
     for cluster_n, cluster_users in clusters.items():
         for uid in cluster_users:

@@ -1,10 +1,10 @@
-import typing as tp
+import typing as tp  # type: ignore
 
-import requests
-from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
+import requests  # type: ignore
+from requests.adapters import HTTPAdapter  # type: ignore
+from requests.packages.urllib3.util.retry import Retry  # type: ignore
 
-from vkapi.config import VK_CONFIG
+from vkapi.config import VK_CONFIG  # type: ignore
 
 
 class TimeoutHTTPAdapter(HTTPAdapter):

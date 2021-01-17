@@ -5,6 +5,7 @@ from urllib.parse import unquote
 
 import pandas as pd
 import responses
+
 from vkapi.wall import get_wall_execute
 
 
@@ -67,4 +68,5 @@ class GetWallTestCase(unittest.TestCase):
             _ = get_wall_execute(domain="cs102py", max_count=1000, count=6000)
         end = time.time()
         self.assertGreaterEqual(end - start, 2.0, msg="Слишком много запросов в секунду")
+
 

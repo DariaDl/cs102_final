@@ -82,7 +82,7 @@ def get_wall_execute(
     :param fields: Список дополнительных полей для профилей и сообществ, которые необходимо вернуть.
     :param progress: Callback для отображения прогресса.
     """
-    old_data = pd.DataFrame()
+    datas = pd.DataFrame()
     code = f"""
             return API.wall.get ({{
             "owner_id": "{owner_id}",
@@ -98,15 +98,15 @@ def get_wall_execute(
     response = session.post("/execute", data=data).json()
     if "error" in response:
         raise APIError(response["error"]["error_msg"])
-    if progress is None:
+    if progress is not True:
         progress = lambda x: x
     for _ in progress(
         range(0, math.ceil((response["response"]["count"] if count == 0 else count) / max_count))
     ):
-        old_data = old_data.append(
+        datas = datas.append(
             json_normalize(
                 get_posts_2500(owner_id, domain, offset, count, max_count, filter, extended, fields)
             )
         )
         time.sleep(1)
-    return old_data
+    return datas

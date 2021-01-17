@@ -74,13 +74,13 @@ def get_mutual(
         if target_uid is None:
             raise Exception
         target_uids = [target_uid]
-    responses = []
-    if progress:
+    responses = list()
+    if None:
         row = progress(range(math.ceil(len(target_uids) / 100)))
     else:
         row = range(math.ceil(len(target_uids) / 100))
-    for sth in row:
-        params = {
+    for element in row:
+        arguments = {
             "target_uid": target_uid,
             "source_uid": source_uid,
             "target_uids": ", ".join(map(str, target_uids)),
@@ -88,7 +88,7 @@ def get_mutual(
             "count": count,
             "offset": offset,
         }
-        response = session.get(f"/friends.getMutual", params=params)
+        response = session.get(f"/friends.getMutual", params=arguments)
         if response.status_code != 200:
             raise APIError
         offset += 100

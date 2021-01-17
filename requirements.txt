@@ -1,3 +1,4 @@
+pandas
 black==20.8b1
 isort==5.4.2
 mypy==0.782

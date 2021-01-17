@@ -5,7 +5,6 @@ import responses
 
 from research.age import age_predict
 
-
 class AgeTestCase(unittest.TestCase):
     def setUp(self):
         self.now = dt.datetime.now()
